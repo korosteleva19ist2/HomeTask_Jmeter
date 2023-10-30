@@ -1,0 +1,17 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1698603162544,56,StartPage,200,,clearGuestbookHistory 1-1,text,true,,22653,119,1,1,http://localhost:8090/,32,0,23
+1698603182613,23,GuestPage,200,,clearGuestbookHistory 1-1,text,true,,4112,133,1,1,http://localhost:8090/guestbook.html,23,0,0
+1698603202661,169,SelectRecordJDBCRequest,200,OK,clearGuestbookHistory 1-1,text,true,,6,0,1,1,null,168,0,160
+1698603222915,14,GuestView,200,,clearGuestbookHistory 1-1,text,true,,272,136,1,1,http://localhost:8090/service/guestbook,14,0,4
+1698603242960,7,Debug Sampler IF,200,OK,clearGuestbookHistory 1-1,text,true,,439,0,1,1,null,0,0,0
+1698603262990,25,StartPage,200,,clearGuestbookHistory 1-1,text,true,,22653,119,1,1,http://localhost:8090/,25,0,0
+1698603263017,8,GuestPage,200,,clearGuestbookHistory 1-1,text,true,,4112,133,1,1,http://localhost:8090/guestbook.html,8,0,0
+1698603283033,26,SelectRecordJDBCRequest,200,OK,clearGuestbookHistory 1-1,text,true,,6,0,1,1,null,24,0,22
+1698603303079,12,GuestView,200,,clearGuestbookHistory 1-1,text,true,,272,136,1,1,http://localhost:8090/service/guestbook,12,0,5
+1698603323097,0,Debug Sampler IF,200,OK,clearGuestbookHistory 1-1,text,true,,439,0,1,1,null,0,0,0
+1698603343110,24,StartPage,200,,clearGuestbookHistory 1-1,text,true,,22653,119,1,1,http://localhost:8090/,23,0,0
+1698603363140,12,GuestPage,200,,clearGuestbookHistory 1-1,text,true,,4112,133,1,1,http://localhost:8090/guestbook.html,12,0,4
+1698603383167,23,SelectRecordJDBCRequest,200,OK,clearGuestbookHistory 1-1,text,true,,6,0,1,1,null,21,0,19
+1698603403205,36,GuestView,200,,clearGuestbookHistory 1-1,text,true,,272,136,1,1,http://localhost:8090/service/guestbook,36,0,0
+1698603423244,0,Debug Sampler IF,200,OK,clearGuestbookHistory 1-1,text,true,,439,0,1,1,null,0,0,0
+1698603443263,12,StartPage,200,,clearGuestbookHistory 1-1,text,true,,22653,119,1,1,http://localhost:8090/,12,0,5

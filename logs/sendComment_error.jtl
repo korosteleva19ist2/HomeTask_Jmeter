@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="20" it="0" lt="20" ct="0" ts="1698604617968" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1189" sby="663" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:36:57 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 441
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604617987,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;В компании работают только профессионалы!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%92+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82+%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE+%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8B%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="0" ts="1698604725866" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1212" sby="730" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:38:45 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 508
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604725888,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Остались очень приятные впечатления о сотрудничестве!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%9E%D1%81%D1%82%D0%B0%D0%BB%D0%B8%D1%81%D1%8C+%D0%BE%D1%87%D0%B5%D0%BD%D1%8C+%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%BD%D1%8B%D0%B5+%D0%B2%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BE+%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="16" ct="0" ts="1698604726747" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1161" sby="579" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:38:46 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 357
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604726762,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Самый лучший в мире сервис!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%A1%D0%B0%D0%BC%D1%8B%D0%B9+%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9+%D0%B2+%D0%BC%D0%B8%D1%80%D0%B5+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1698604743364" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1212" sby="730" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:39:03 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 508
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604743368,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Остались очень приятные впечатления о сотрудничестве!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%9E%D1%81%D1%82%D0%B0%D0%BB%D0%B8%D1%81%D1%8C+%D0%BE%D1%87%D0%B5%D0%BD%D1%8C+%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%BD%D1%8B%D0%B5+%D0%B2%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BE+%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="25" it="0" lt="24" ct="0" ts="1698604746315" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1212" sby="730" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:39:05 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 508
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604746338,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Остались очень приятные впечатления о сотрудничестве!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%9E%D1%81%D1%82%D0%B0%D0%BB%D0%B8%D1%81%D1%8C+%D0%BE%D1%87%D0%B5%D0%BD%D1%8C+%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%BD%D1%8B%D0%B5+%D0%B2%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BE+%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="27" ct="0" ts="1698604763309" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1161" sby="579" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:39:22 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 357
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604763334,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Самый лучший в мире сервис!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%A1%D0%B0%D0%BC%D1%8B%D0%B9+%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9+%D0%B2+%D0%BC%D0%B8%D1%80%D0%B5+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1698604776069" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1161" sby="579" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:39:35 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 357
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604776078,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Самый лучший в мире сервис!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%A1%D0%B0%D0%BC%D1%8B%D0%B9+%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9+%D0%B2+%D0%BC%D0%B8%D1%80%D0%B5+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="0" ts="1698604781624" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1189" sby="663" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:39:41 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 441
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604781635,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;В компании работают только профессионалы!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%92+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82+%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE+%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8B%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="0" ts="1698604806525" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1189" sby="663" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:40:05 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 441
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604806542,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;В компании работают только профессионалы!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%92+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82+%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE+%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8B%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="14" ct="0" ts="1698604807974" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1161" sby="579" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:40:07 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 357
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604807987,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Самый лучший в мире сервис!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%A1%D0%B0%D0%BC%D1%8B%D0%B9+%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9+%D0%B2+%D0%BC%D0%B8%D1%80%D0%B5+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1698604825367" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1212" sby="730" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:40:25 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 508
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604825373,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Остались очень приятные впечатления о сотрудничестве!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%9E%D1%81%D1%82%D0%B0%D0%BB%D0%B8%D1%81%D1%8C+%D0%BE%D1%87%D0%B5%D0%BD%D1%8C+%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%BD%D1%8B%D0%B5+%D0%B2%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BE+%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1698604844093" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1189" sby="663" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:40:43 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 441
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604844097,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;В компании работают только профессионалы!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%92+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82+%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE+%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8B%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1698604870222" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1212" sby="730" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:41:10 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 508
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604870233,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Остались очень приятные впечатления о сотрудничестве!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%9E%D1%81%D1%82%D0%B0%D0%BB%D0%B8%D1%81%D1%8C+%D0%BE%D1%87%D0%B5%D0%BD%D1%8C+%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%BD%D1%8B%D0%B5+%D0%B2%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BE+%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1698604876229" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1161" sby="579" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:41:15 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 357
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604876239,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Самый лучший в мире сервис!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%A1%D0%B0%D0%BC%D1%8B%D0%B9+%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9+%D0%B2+%D0%BC%D0%B8%D1%80%D0%B5+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="17" ct="0" ts="1698604882884" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1212" sby="730" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:41:22 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 508
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604882900,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Остались очень приятные впечатления о сотрудничестве!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%9E%D1%81%D1%82%D0%B0%D0%BB%D0%B8%D1%81%D1%8C+%D0%BE%D1%87%D0%B5%D0%BD%D1%8C+%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%BD%D1%8B%D0%B5+%D0%B2%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BE+%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="17" ct="0" ts="1698604888801" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1161" sby="579" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:41:28 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 357
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604888816,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Самый лучший в мире сервис!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%A1%D0%B0%D0%BC%D1%8B%D0%B9+%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9+%D0%B2+%D0%BC%D0%B8%D1%80%D0%B5+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="16" ct="0" ts="1698604890020" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1212" sby="730" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:41:29 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 508
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604890035,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Остались очень приятные впечатления о сотрудничестве!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%9E%D1%81%D1%82%D0%B0%D0%BB%D0%B8%D1%81%D1%8C+%D0%BE%D1%87%D0%B5%D0%BD%D1%8C+%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%BD%D1%8B%D0%B5+%D0%B2%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BE+%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" lt="18" ct="0" ts="1698604892461" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1161" sby="579" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:41:32 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 357
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604892478,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Самый лучший в мире сервис!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%A1%D0%B0%D0%BC%D1%8B%D0%B9+%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9+%D0%B2+%D0%BC%D0%B8%D1%80%D0%B5+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="0" ts="1698604893698" s="false" lb="AddComment" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1212" sby="730" sc="1" ec="1" ng="1" na="1" hn="LIZA">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Oct 2023 18:41:33 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 508
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8090
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_202)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1698604893702,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 3\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Остались очень приятные впечатления о сотрудничестве!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">text=%D0%9E%D1%81%D1%82%D0%B0%D0%BB%D0%B8%D1%81%D1%8C+%D0%BE%D1%87%D0%B5%D0%BD%D1%8C+%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%BD%D1%8B%D0%B5+%D0%B2%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BE+%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%21&amp;user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8</queryString>
+  <java.net.URL>http://localhost:8090/service/guestbook</java.net.URL>
+</httpSample>
+
+</testResults>

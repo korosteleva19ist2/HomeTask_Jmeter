@@ -1,0 +1,17 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1698603567424,3,StartPage,200,,clearGuestbookHistory 1-1,text,true,,22653,119,1,1,http://localhost:8090/,2,0,0
+1698603587442,21,GuestPage,200,,clearGuestbookHistory 1-1,text,true,,4112,133,1,1,http://localhost:8090/guestbook.html,21,0,0
+1698603607478,41,SelectRecordJDBCRequest,200,OK,clearGuestbookHistory 1-1,text,true,,6,0,1,1,null,40,0,39
+1698603627551,9,GuestView,200,,clearGuestbookHistory 1-1,text,true,,272,136,1,1,http://localhost:8090/service/guestbook,9,0,3
+1698603647574,24,StartPage,200,,clearGuestbookHistory 1-1,text,true,,22653,119,1,1,http://localhost:8090/,23,0,0
+1698603667606,22,GuestPage,200,,clearGuestbookHistory 1-1,text,true,,4112,133,1,1,http://localhost:8090/guestbook.html,22,0,0
+1698603687632,21,SelectRecordJDBCRequest,200,OK,clearGuestbookHistory 1-1,text,true,,6,0,1,1,null,20,0,18
+1698603707675,10,GuestView,200,,clearGuestbookHistory 1-1,text,true,,272,136,1,1,http://localhost:8090/service/guestbook,10,0,4
+1698603727689,24,StartPage,200,,clearGuestbookHistory 1-1,text,true,,22653,119,1,1,http://localhost:8090/,24,0,0
+1698603747725,23,GuestPage,200,,clearGuestbookHistory 1-1,text,true,,4112,133,1,1,http://localhost:8090/guestbook.html,23,0,0
+1698603767753,22,SelectRecordJDBCRequest,200,OK,clearGuestbookHistory 1-1,text,true,,6,0,1,1,null,21,0,18
+1698603787803,11,GuestView,200,,clearGuestbookHistory 1-1,text,true,,272,136,1,1,http://localhost:8090/service/guestbook,11,0,4
+1698603807818,24,StartPage,200,,clearGuestbookHistory 1-1,text,true,,22653,119,1,1,http://localhost:8090/,23,0,0
+1698603827853,22,GuestPage,200,,clearGuestbookHistory 1-1,text,true,,4112,133,1,1,http://localhost:8090/guestbook.html,22,0,0
+1698603847879,23,SelectRecordJDBCRequest,200,OK,clearGuestbookHistory 1-1,text,true,,6,0,1,1,null,21,0,19
+1698603867920,9,GuestView,200,,clearGuestbookHistory 1-1,text,true,,272,136,1,1,http://localhost:8090/service/guestbook,9,0,3
