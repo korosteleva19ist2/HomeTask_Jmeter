@@ -253,7 +253,7 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-171007139">&lt;h1&gt;Рады, Вас видеть, Анент ${cName}!&lt;/h1&gt;</stringProp>
+              <stringProp name="1615333904">&lt;h1&gt;Рады, Вас видеть, Анент ${cName}!&lt;/h1&gt;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -272,7 +272,7 @@
            &lt;soapenv:Header/&gt;&#xd;
            &lt;soapenv:Body&gt; &#xd;
                   &lt;gs:getCountryRequest&gt; &#xd;
-                          &lt;gs:name&gt;United Kingdom&lt;/gs:name&gt;  &#xd;
+                          &lt;gs:name&gt;${COUNTRY}&lt;/gs:name&gt;  &#xd;
                   &lt;/gs:getCountryRequest&gt;&#xd;
             &lt;/soapenv:Body&gt; &#xd;
 &lt;/soapenv:Envelope&gt;</stringProp>
