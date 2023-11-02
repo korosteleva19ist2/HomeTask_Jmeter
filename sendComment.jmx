@@ -51,22 +51,22 @@
           <collectionProp name="load_profile">
             <collectionProp name="85323736">
               <stringProp name="50">2</stringProp>
-              <stringProp name="52">4</stringProp>
+              <stringProp name="52">2</stringProp>
               <stringProp name="60">60</stringProp>
             </collectionProp>
             <collectionProp name="85399128">
               <stringProp name="52">4</stringProp>
-              <stringProp name="54">6</stringProp>
+              <stringProp name="54">4</stringProp>
               <stringProp name="60">60</stringProp>
             </collectionProp>
             <collectionProp name="85474520">
               <stringProp name="54">6</stringProp>
-              <stringProp name="56">8</stringProp>
+              <stringProp name="56">6</stringProp>
               <stringProp name="60">60</stringProp>
             </collectionProp>
             <collectionProp name="1818394825">
               <stringProp name="56">8</stringProp>
-              <stringProp name="1567">10</stringProp>
+              <stringProp name="1567">8</stringProp>
               <stringProp name="60">60</stringProp>
             </collectionProp>
             <collectionProp name="-297914684">
